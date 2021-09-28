@@ -6,9 +6,9 @@ module "tfplan-functions" {
     #source = "./tfstate-functions.sentinel"
 #}
 
-module "tfconfig-functions" {
-    source = "./tfconfig-functions.sentinel"
-}
+#module "tfconfig-functions" {
+   # source = "./tfconfig-functions.sentinel"
+#}
 
 policy "enforce-name-prefix" {
     source = "./name-prefix-check-policy.sentinel"
